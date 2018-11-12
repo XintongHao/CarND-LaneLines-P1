@@ -9,13 +9,6 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
-
-[image1]: ./test_images/solidYellowCurve.jpg "Grayscale"
-[image2]: ./test_videos_output/solidYellowCurve.jpg 
-[image3]: ./test_videos_output/improved_solidYellowCurve.jpg 
-[image4]: ./test_videos_output/challenge_image.png
-[image5]: ./test_videos_output/incorrect_line.png
 ---
 
 ### Reflection
@@ -53,26 +46,27 @@ In order to draw a single line on the left and right lanes, I modified the draw_
  
 Original image example: 
 
-![alt text][image1]
+<img src="test_images/solidYellowCurve.jpg" width="480" alt="Combined Image" />
+
 
 Before improvement, the lines are segments: 
 
-![alt text][image2]
+<img src="test_videos_output/solidYellowCurve.jpg" width="480" alt="Combined Image" />
 
 After improvement: 
 
-![alt text][image3]
+<img src="test_videos_output/improved_solidYellowCurve.jpg" width="480" alt="Combined Image" />
 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
 1) I didn't overcome the challenge problem where there is a 90 degree curve on the road.
 
-![alt text][image4]
+<img src="test_videos_output/challenge_image.png" width="480" alt="Combined Image" />
 
 2) In some frams of the video, there are incorrect lines (in the 11 second in the solidYellowLeft.mp4) 
 
-![alt text][image5]
+<img src="test_videos_output/incorrect_line.png" width="480" alt="Combined Image" />
 
 
 ### 3. Suggest possible improvements to your pipeline
